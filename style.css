@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+
+.header .logo {
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Sriracha', cursive;
+    margin-left: 30px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:bisque;
+    margin-right: 20px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: #000;
+    padding: 25px 30px;
+    font-family: 'Sriracha', cursive;
+}
+
+.logo-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.intro {
+    background-image: url("C:\Users\RupaUppin\OneDrive\Documents\Wher I stand\pic1.png");
+    background-size: cover;
+    background-position: center;
+}
